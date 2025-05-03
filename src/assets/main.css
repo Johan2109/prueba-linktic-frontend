@@ -1,0 +1,18 @@
+/* 
+  Importa los estilos base de Tailwind CSS.
+  Incluye normalización de estilos y algunas utilidades globales (reset CSS).
+*/
+@tailwind base;
+
+/* 
+  Importa los componentes predefinidos de Tailwind.
+  Aquí se incluyen estilos reutilizables como botones, formularios, etc.
+  Puedes extender estos componentes desde tu configuración o agregar nuevos.
+*/
+@tailwind components;
+
+/* 
+  Importa todas las utilidades disponibles de Tailwind CSS.
+  Estas utilidades son clases listas para usar como `text-center`, `bg-blue-500`, etc.
+*/
+@tailwind utilities;
